@@ -15,7 +15,14 @@ def generate_ggb_bundle():
     spine = ['nav']
 
     # 1. Add Intro Page
-    intro_html = epub.EpubHtml(title='Introduction', file_name='intro.xhtml', content='<h1>GGB Strategy</h1><p>3 Cooking sessions. 6 Dinners. Grains, Greens, Beans</p>')
+    intro_path = './plans/ggb-starter-week/GGB-starter-week.md'
+    intro_post = Frontmatter.read_file(intro_path)
+    intro_attrs = intro_post['attributes']
+    intro_html = epub.EpubHtml(
+        title=intro_attrs.get('title', 'Introduction'),
+        file_name='intro.xhtml',
+        content=markdown.markdown(intro_post['body'])
+    )
     book.add_item(intro_html)
     spine.append(intro_html)
 
@@ -45,11 +52,8 @@ def generate_ggb_bundle():
             book.add_item(item)
             spine.append(item)
 
-    # 3. Add Support Page
-    support_html = epub.EpubHtml(title='Support', file_name='support.xhtml', content='<h1>Support GGB</h1><p>If this saved you time, consider a voluntary payment at my <a href="YOUR_GUMROAD_URL">Gumroad Store</a>.</p>')
-    book.add_item(support_html)
-    spine.append(support_html)
-
+    book.add_item(epub.EpubNcx())
+    book.add_item(epub.EpubNav())
     book.spine = spine
     epub.write_epub('GGB_Starter_Plan.epub', book)
     print("Bundle Generated: GGB_Starter_Plan.epub")
