@@ -24,7 +24,7 @@ ingredients:
   - 200g spinach
   - 200ml soy cream
   - 2 tbsp lemon juice + zest
-  - Rice (for serving)
+  - 200g Rice (for 2 servings; optional you can prepare the rice for 4 servings and freeze it.)
 macros:
   calories: 410
   protein: "22g"

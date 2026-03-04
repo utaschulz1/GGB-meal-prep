@@ -20,7 +20,7 @@ ingredients:
   - Cayenne pepper
   - 1 pinch cinnamon
   - 1 pinch chili flakes
-  - 1 avocado
+  - 2 avocado (1/2 per serving)
   - 1 handful blueberries (50g)
   - 12 cherry tomatoes
   - 1 handful parsley (10g)
@@ -31,7 +31,7 @@ macros:
   fiber: "16g"
 ---
 
-## The GGB Strategy
+## Why this dish
 The combination of cinnamon and cayenne with the sweetness of the potatoes creates a deep, "braised" flavor that feels gourmet. The addition of fresh berries at the end provides a burst of acidity that cuts through the starch perfectly.
 
 ## Instructions
@@ -42,6 +42,6 @@ The combination of cinnamon and cayenne with the sweetness of the potatoes creat
 5. In the meantime, prepare the salad.
 6. Rinse and drain the kidney beans. Add them to the pan.
 7. Season with cumin, cayenne pepper, cinnamon, and chili flakes. Add 100ml of water, stir, and cook for another 5–8 minutes over low heat.
-8. Meanwhile, halve the avocado, remove the pit, scoop out the flesh, and cut into slices.
-9. Halve the cherry tomatoes and add them at the end so they get warm.
-10. Coarsely chop the parsley. Distribute the braised sweet potatoes on plates and serve with rice, avocado, berries, tomatoes, and parsley.
+8. Meanwhile, halve one of the avocado, remove the pit, scoop out the flesh, and cut into slices.
+9. Halve the cherry tomatoes and add them to the pan at the end so they get warm.
+10. Coarsely chop the parsley. Distribute the braised sweet potatoes on plates and serve with rice, avocado, half of the berries, tomatoes, and parsley.
